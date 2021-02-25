@@ -6,7 +6,7 @@ import CalcContext from '../calcContext'
 const StringScreen = () => {
     const context = useContext(CalcContext)
 
-    let stringVariable = 'fat pineapples'
+
     return (
   
       <div className="StringScreen" >
