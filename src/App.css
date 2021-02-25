@@ -12,10 +12,14 @@
 }
 
 .StringScreen{
-  background-color: aqua;
+  background-color: rgb(42, 67, 67);
   width: 43vmin;
   height: 10vmin;
   margin: 4mm;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
 }
 
 .ButtonContainer{
