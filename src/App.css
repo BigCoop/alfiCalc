@@ -22,8 +22,29 @@
   width: 43vmin;
   height: 66vmin;
   background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
 }
 
+.Button{
+  width: 7vmin;
+  height: 7vmin;
+  margin: 4px;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.EnterButton{
+  width: 40vmin;
+  height: 9vmin;
+
+}
 
 .App-logo {
   height: 50vmin;
