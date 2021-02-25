@@ -1,0 +1,42 @@
+Take Home Test
+====
+
+This is your take-home test. Your task, should you choose to accept it, will be to take the directions provided herein and develop a solution to the problem/challenge depected. Additional directives may have been provided to you at the time of this document's delivery which add, remove, or change requirements of the problem. It should be assumed that time-to-complete begins upon reception of this document unless arranged otherwise or more time before commencement was requested.
+
+
+## Prerequisits
+You will need
+- Git
+- A GitHub account
+- An IDE / Text Editor
+
+
+## The Challenge
+Create a _calculator_ application in React using _Functional Components_ and React's _Context API_. That's it. Use this _minimal tooling_ and **only** this minimal tooling to produce a solution. For example, using React Native instead of React (DOM) will conclude in disqualification. Likewise, using a calculator-interface plugin, code foraged from StackOverflow, or similar faculties are disfavored. Contrarywise, the [intelligent] use of patterns, classical algorithms or data-structures is encouraged.
+
+### Specifications
+None. Other than React, Funcional Components, and the Context API, _you_ get to decide the specifications of the calculator how _you_ see fit. Note, however, that the leverage of anything other than the precepts aforementioned in this paragraph will lead to disfavor of the resulting solution. That is, snippets, plugins, libraries, frameworks or other means used to comprise a solution other than the aforementioned minimal tooling provided may disqualify the solution's candidacy.
+
+<details>
+
+### Motivation
+A calculator may seem like an easy challenge, but it is not as straight-forward as may appear. Innovating a simpler calculator solution using the minimal tooling conveys ingenuity. **Note**: it should be assumed that anything omitted from the requirements was so intentionally or expected to be resolved whatsoever in the solution at the candidate's own discretion and discussed at presentation.
+
+### Intention
+The deliverable _may or may not be a complete solution_. Work on the aspects that seem most important as these will likely be the best points to demo and discuss. **Note**: just because a firm requirement is the usage of React Functional Components is does not mean demonstrating one's understanding of _OOP_, _Software Design Patterns_, and _SOLID Principles_ is disfavored. In fact, knowing when to use which is considered a strength.
+
+</details>
+
+
+## The Deliverable
+##### The deliverable must satisfy the following criteria:
+- Exist at a clonable public GitHub (or GitLab, Bitbucket, etc) repository.
+- Provide a `README.md` document at the project root defining reasonable directions for running the app (over-complications will disqualify the solution).
+- Provide _this_ document (the one you're reading right now) at the root of the project.
+- Deliver within 3-days of this document's reception.
+
+## Additional Requirements
+- Relax
+- Enjoy this excercise
+- Ask for more time if necessary
+- Understand that we understand this may be one of several take-home tests you've been given
