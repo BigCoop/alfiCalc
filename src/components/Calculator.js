@@ -2,9 +2,10 @@
 import '../App.css'
 import ButtonContainer from './Buttons/ButtonContainer';
 import StringScreen from './StringScreen'
-import React, {useContext} from 'react'; 
+import React from 'react'; 
 import './../calcContext'
-import CalcContext from './../calcContext';
+
+// nothing notable here, just a junction/container component
 
 const Calculator = () => {
 

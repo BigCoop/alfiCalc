@@ -10,7 +10,7 @@ const StringScreen = () => {
     return (
   
       <div className="StringScreen" >
-        <p>
+        <p className="StringTextBox">
             {
               (context.resultFlag == 1)?
               context.result

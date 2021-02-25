@@ -1,18 +1,22 @@
 .App {
   text-align: center;
+
 }
 
 .Calculator{
   height: 85vmin;
+  min-height: 400px;
   width: 50vmin;
-  background-color: rgb(72, 72, 72);
+  background-color: rgba(11, 12, 16, 0.913);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 10px rgba(11, 12, 16, 0.913);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .StringScreen{
-  background-color: rgb(42, 67, 67);
+  background-color: rgb(19, 38, 62);
   width: 43vmin;
   height: 10vmin;
   margin: 4mm;
@@ -25,7 +29,7 @@
 .ButtonContainer{
   width: 43vmin;
   height: 66vmin;
-  background-color: blueviolet;
+  background-color: rgba(54, 56, 72, 0.797);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -34,19 +38,52 @@
   
 }
 
-.Button{
-  width: 7vmin;
+.StringTextBox{
+  margin-left: 2vmin;
+}
+
+.ButtonBlocks{
+  width: 6.7vmin;
   height: 7vmin;
   margin: 4px;
-  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button{
+  width: 6.7vmin;
+  height: 7vmin;
+  margin: 4px;
+  border-radius: 2vmin;
+  color: grey;
+  outline: none;
+  background-color: rgb(3, 0, 42);
   display: flex;
   justify-content: center;
   align-items: center;
+  border: none;
+
+
+}
+
+.KeyPad{
+  width: 6.7vmin;
+  outline: none;
+  height: 7vmin;
+  border: 10px;
+  border-color: hon;
+  border-radius: 3.35vmin;
+  background-color: rgb(27, 65, 254);
+  color: whitesmoke;
+
 }
 
 .EnterButton{
   width: 40vmin;
   height: 9vmin;
+  border: none;
+  background-color: rgb(153, 201, 244);
 
 }
 
@@ -62,7 +99,8 @@
 }
 
 .App-header {
-  background-color: #cdcdcd;
+  background-image: URL('./background.jpg');
+  background-position: bottom ; 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
